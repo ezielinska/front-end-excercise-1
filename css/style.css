@@ -182,7 +182,7 @@ main#site-content {
 
 .intro .green-elements {
     position: absolute;
-    top: 0;
+    top: 90px;
     left: 0;
     z-index: 0;
     width: 40%;
