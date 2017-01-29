@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Indipixel</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header id="site-header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="/">indipixel</a>
+            </h1>
+            <a href="#" class="contact">Contact us</a>
+        </div>
+    </header>
+    <main id="site-content">
+        <section class="intro">
+            <div class="green-elements">
+                <img src="/images/greenelements.png">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5">
+                        <div class="phone">
+                            <div class="background">
+                            </div>
+                            <img src="/images/phonescreen_03.png">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7">
+                        <article>
+                            <h1>
+                                We design and build<br class="hidden-xs hidden-sm"> beautiful web & mobile apps
+                            </h1>
+                            <p>
+                                You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality. - Walt Disney
+                            </p>
+                            <hr class="dashed">
+                            <button class="btn" data-toggle="modal" data-target="#details-modal">
+                                Know more
+                            </button>
+                            <div class="clearfix"></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-7">
+                        <h1>Lets Talk</h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="First Name" id="name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Last Name" id="usr">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Email Address" id="email">
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-control" id="exampleSelect1">
+                                        <option>App design</option>
+                                        <option>App development</option>
+                                        <option>Consulting</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea class="form-control" rows="5" id="comment" placeholder="Type your query here"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn" data-toggle="modal" data-target="#message-sent-modal">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <span class="copyrights">© 2015 indipixel desing</span>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <a href="mailto:contact@yourmail.com" class="email-us">
+                        <span class="icon"><img src="/images/mail.png" alt=""></span>contact@yourmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="message-sent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Cool!</h4>
+                </div>
+                <div class="modal-body">
+                    Your message has been sent. Please wait for our reply.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-green" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="details-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Some details</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut diam eros. Nulla tempus massa ut dapibus efficitur. Aliquam erat volutpat. Maecenas lacinia leo at nisi lobortis facilisis. Ut rhoncus tempor mi, vitae porta velit dapibus vel. Curabitur lacinia egestas imperdiet. Ut varius ante in urna tempor porttitor. Integer porta sapien vitae eros laoreet fringilla. Aenean molestie dapibus velit ac varius. Praesent molestie justo velit, nec tincidunt magna tempor non. Nulla faucibus, quam vitae luctus placerat, elit lacus mattis elit, ut dignissim augue ligula eu nisi.</p>
+                    <p>Suspendisse ultrices nibh bibendum sapien tempus mollis. Vivamus non nisi eu neque hendrerit sollicitudin id sit amet purus. Donec faucibus tristique eros non ornare. Suspendisse nec tellus hendrerit, elementum risus bibendum, interdum elit. Vivamus luctus, tortor sed cursus dapibus, purus nibh viverra erat, sit amet tincidunt arcu libero et felis. Suspendisse elementum pharetra purus non porttitor. Fusce nisl lacus, finibus vel nisi in, interdum venenatis lectus. Proin id tempor nibh, vel pulvinar tellus. Ut efficitur varius libero, ut suscipit nisi.</p>
+                    <p>Nulla vel leo pretium, molestie lacus eget, auctor odio. Pellentesque bibendum semper lacus, ac accumsan nisi eleifend eget. Proin mollis mi dictum eros gravida, quis gravida ipsum ultricies. Phasellus eu ipsum facilisis, ultrices ipsum a, gravida mauris. Etiam vitae rhoncus felis. Nunc lacus leo, luctus vitae felis sed, cursus semper nibh. Aliquam mi dui, pharetra eget elit ut, pharetra lacinia ligula. Ut sit amet dui vel lacus finibus egestas. Fusce ac ex vel lorem venenatis venenatis a eget ipsum. Cras luctus enim purus, ac auctor nisl bibendum in. Duis bibendum pretium risus vitae bibendum. Aliquam malesuada lectus ac massa mollis ultricies. Nam facilisis nec tellus ut condimentum. Vivamus volutpat pellentesque tortor, a tempus dolor mattis in. Mauris eleifend lacus in consectetur placerat. Suspendisse placerat quam non sollicitudin fringilla.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-green" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/scripts/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'), url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'), url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'), url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'), url('../fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham-book-regular-webfont.woff2') format('woff2'), url('../fonts/gotham-book-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Header*/
+
+header#site-header {
+    background-color: #e94644;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+
+header#site-header:before {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background-color: #04e4a2;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+header#site-header h1.logo {
+    font-family: 'montserratbold';
+    font-size: 35px;
+    margin: 0;
+    display: inline-block;
+    line-height: 1;
+}
+
+header#site-header h1.logo a {
+    color: #fff;
+}
+
+header#site-header h1.logo a:hover {
+    text-decoration: none;
+}
+
+header#site-header a.contact {
+    font-family: 'gotham_bookregular';
+    font-size: 16px;
+    color: #F9FBE7;
+    text-transform: uppercase;
+    float: right;
+    display: inline-block;
+    line-height: 35px;
+    text-decoration: none;
+    position: relative;
+}
+
+header#site-header a.contact:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fdd839;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    transition: 200ms background-color linear;
+}
+
+header#site-header a.contact:hover:after {
+    background-color: #fff;
+}
+
+
+/*Intro*/
+
+main#site-content {
+    min-height: calc(100vh - 85px - 59px);
+    overflow: hidden;
+}
+
+.intro {
+    background-color: #ef5350;
+    padding-top: 85px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.intro .phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 320px;
+    height: 672px;
+}
+
+@media (max-width: 992px) {
+    .intro .phone {
+        position: relative;
+        width: 280px;
+        height: 542px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro .phone {
+        margin: 0 auto 50px;
+    }
+}
+
+.intro .phone .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.intro .phone img {
+    display: block;
+    max-width: calc(100% - 38px);
+    margin: 75px auto 0 auto;
+}
+
+@media (max-width: 992px) {
+    .intro .phone img {
+        position: relative;
+        top: 78px;
+        max-width: calc(100% - 62px);
+        left: 20px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro .phone {
+        position: relative;
+        width: 280px;
+        height: 542px;
+    }
+}
+
+.intro .green-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 40%;
+}
+
+.intro .green-elements img {
+    width: 100%;
+}
+
+.intro article {
+    padding-top: 70px;
+}
+
+.intro article h1 {
+    font-family: 'montserratregular';
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.intro article p {
+    font-family: 'montserratextralight';
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.intro button.btn {
+    font-family: 'montserratregular';
+    font-size: 18px;
+    background-color: #04e4a2;
+    padding: 16px 25px;
+    border: none;
+    color: #fff;
+    float: right;
+    border-radius: 4px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+
+/*Contact-Form*/
+
+.contact-form {
+    padding-top: 30px;
+}
+
+.contact-form h1 {
+    font-family: 'montserratlight';
+    font-size: 20px;
+    color: #ef5350;
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.contact-form input.form-control,
+.contact-form textarea.form-control,
+.contact-form select.form-control {
+    width: 100%;
+    font-family: 'montserratlight';
+    font-size: 16px;
+    color: #636363;
+    margin-bottom: 17px;
+    box-shadow: none;
+    border-color: #E3F2FD;
+}
+
+.contact-form select.form-control {
+    height: 50px;
+}
+
+.contact-form input.form-control {
+    height: 50px;
+}
+
+.contact-form input.form-control:focus,
+.contact-form textarea.form-control:focus {
+    border-color: #04e4a2;
+}
+
+.contact-form button.btn {
+    font-family: 'montserratsemibold';
+    font-size: 20px;
+    background-color: #ef5350;
+    padding: 10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    float: right;
+    border-radius: 4px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+
+/*Footer*/
+
+footer#site-footer {
+    background-color: #fefcf2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: 'montserratlight';
+    color: #636363;
+}
+
+@media (max-width: 768px) {
+    footer#site-footer {
+        text-align: center;
+    }
+}
+
+footer#site-footer .icon {
+    padding-right: 20px;
+}
+
+footer#site-footer a.email-us {
+    color: #636363;
+}
+
+@media (max-width: 768px) {
+    footer#site-footer a.email-us {
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+footer#site-footer a.email-us:hover {
+    text-decoration: none;
+}
+
+hr.dashed {
+    border-top: 2px dashed #e94643;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button.btn {
+    transition: 200ms opacity linear;
+}
+
+button.btn:hover {
+    color: #fff;
+    opacity: 0.75;
+}
+
+button.btn:active:focus,
+button.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-green {
+    background-color: #04e4a2;
+    color: #fff;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: 0;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
