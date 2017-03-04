@@ -5,3 +5,5 @@ Feel free to mail me at zielinska.emilka@gmail.com if you'd like to hire me as j
 Project: [Indipixel](https://dribbble.com/shots/2467109-Indipixel-Free-Landing-Page-Template)
 
 [Preview](https://ezielinska.github.io/front-end-excercise-1/)
+
+![alt tag](https://raw.githubusercontent.com/ezielinska/front-end-excercise-1/master/thumbnail.png)
